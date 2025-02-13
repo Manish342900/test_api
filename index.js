@@ -7,5 +7,5 @@ const port =process.env.PORT || 4000
 server.use(middlewares)
 server.use(router)
 server.listen(port,()=>{
-    console.log("json server is running")
+    console.log(`json server is running ${port}`)
 })
